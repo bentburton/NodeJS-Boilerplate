@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noEmit": false,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "declaration": true,
+    "strict": true,
+    "target": "esnext",
+    "outDir": "dist",
+    "types": [
+      "jest",
+      "node"
+    ]
+  },
+  "include": ["src/**/*.ts"],
+}

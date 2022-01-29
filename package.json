@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for fast starting NodeJS projects",
+  "main": "dist/index.js",
+  "repository": "git@github.com:bentburton/NodeJS-Boilerplate.git",
+  "author": "bentburton <bentburton@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node12": "^1.0.8",
+    "@types/jest": "^27.0.1",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^15.12.2",
+    "@typescript-eslint/eslint-plugin": "^4.26.1",
+    "@typescript-eslint/parser": "^4.26.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jest": "^24.4.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^27.1.0",
+    "prettier": "^2.3.1",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.4.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  }
+}
