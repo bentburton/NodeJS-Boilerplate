@@ -1,11 +1,9 @@
-# package directories
-jspm_packages
 node_modules
 
-package-lock.json
+yarn.lock
 
 *.env
 
-.webpack
-
 dist
+
+coverage
